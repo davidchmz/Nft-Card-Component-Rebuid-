@@ -40,12 +40,19 @@ p {
   border-radius: 10px;
 }
 
+.hero-img img:hover {
+  cursor: pointer;
+}
 .Title {
   margin-top: 12px;
   margin-bottom: 13px;
   font-size: 1.6rem;
 }
 
+.Title:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
 .subtitle {
   margin-bottom: 13px;
   color: var(--Soft-blue);
@@ -92,4 +99,19 @@ p {
   color: var(--Soft-blue);
 }
 
-@media;
+.footer p:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+
+@media (min-width: 430px) {
+  .container {
+    width: 350px;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
